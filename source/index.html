@@ -4,9 +4,208 @@
     <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
   </head>
-  <body>
+  <body class="page__body">
+    <header class="page__header">
+      <a class="page-header__logo"><img src="https://via.placeholder.com/150x150" width="74" height="23" alt="Приложение PINK"></a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Главное меню</span></button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list">
+            <li class="nav-list__item"><a>Главная</a></li>
+            <li class="nav-list__item"><a>Фотографии</a></li>
+            <li class="nav-list__item"><a>Конкурс</a></li>
+            <li class="nav-list__item"><a>HTML Academy</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="page-main">
+      <h1 class="visually-hidden">Приложение PINK - Взгляните на жизнь иначе!</h1>
+      <section class="appliction">
+        <div class="appliction__wrapper">
+          <header class="appliction__header">
+            <h2 class="visually-hidden">Приложение</h2>
+            <p class="appliction__slogan">Взгляните на жизнь иначе</p>
+            <img class="application__demo" src="https://via.placeholder.com/150x150" width="320" height="286" alt="Приложение">
+            <button>Скачать приложение</button>
+            <ul class="application__downloads-list">
+              <li class="downloads-list__item"><img src="https://via.placeholder.com/150x150" alt="MAC"></li>
+              <li class="downloads-list__item"><img src="https://via.placeholder.com/150x150" alt="ANDROID"></li>
+              <li class="downloads-list__item"><img src="https://via.placeholder.com/150x150" alt="WINDOWS"></li>
+            </ul>
+            <p class="appliction__downloads-description">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+          </header>
+        </div>
+      </section>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+      <section class="benefits">
+        <div class="benefits__wrapper">
+          <header class="benefits__header">
+            <h2 class="visually-hidden">Преимущества</h2>
+            <p class="benefits__intro-1">Устали от серости мегаполиса?</p>
+            <p class="benefits__intro-2">Нам есть, что вам<br>предложить!</p>
+            <dl class="benefits__list">
+              <div class="benefits__item">
+                <img class="benefits__image" src="https://via.placeholder.com/150x150" width="136" height="92" alt="Мотивационное изображение">
+                <dt class="benefits__accent">Поднимает настроение</dt>
+                <dd class="benefits__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</dd>
+              </div>
+              <div class="benefits__item">
+                <img class="benefits__image" src="https://via.placeholder.com/150x150" width="136" height="92" alt="Мотивационное изображение">
+                <dt class="benefits__accent">Меняет мир вокруг</dt>
+                <dd class="benefits__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</dd>
+              </div>
+              <div class="benefits__item benefits__item--active">
+                <img class="benefits__image" src="https://via.placeholder.com/150x150" width="136" height="92" alt="Мотивационное изображение">
+                <dt class="benefits__accent">Заводит новых друзей</dt>
+                <dd class="benefits__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</dd>
+              </div>
+            </dl>
+            <dl class="references__list">
+              <div class="references__item">
+                <img class="references__image" src="https://via.placeholder.com/150x150" width="136" height="92" alt="Мотивационное изображение">
+                <dt class="references__accent">Эффект на 24 часа!</dt>
+                <dd class="references__description">Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые сутки!</dd>
+                <a class="references__link">Узнать больше об исследовании</a>
+              </div>
+            </dl>
+          </header>
+        </div>
+      </section>
 
+      <section class="reviews">
+        <div class="reviews__wrapper">
+          <h2 class="visually-hidden">Отзывы о нас</h2>
+          <div class="reviews__list">
+            <blockquote class="reviews__item">
+              <div class="reviews__author-info">
+                <cite class="reviews__author-name">Николай Петров<br><span class="reviews__author-about">25 лет, водитель трамвая</span></cite>
+                <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+              </div>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section class="benefits">
+        <div class="benefits__wrapper">
+          <header class="benefits__header">
+            <h2 class="visually-hidden">Спецификация</h2>
+            <table class="specification">
+              <tr class="specification__header"> <!--заголовок-->
+                <th class="specification__header-column specification__header-column--feature"><span class="visually-hidden">Функция</span></th>
+                <th class="specification__header-column">База<br><span class="price">1,99 USD</span></th>
+                <th class="specification__header-column specification__header-column--hit">Стандарт<br><span class="price">3,99 USD</span></th>
+                <th class="specification__header-column">Анлим<br><span class="price">9,99 USD</span></th>
+              </tr>
+              <tr class="specification__feature-item"> <!--строка-->
+                <td class="specification__feature-cell">
+                  <span class="specification__feature-name">Розовый фильтр</span>
+                </td>
+                <td class="specification__feature-cell">
+                  <span class="specification__feature-name">Розовый фильтр</span>
+                  <img class="specification__feature-image" src="https://via.placeholder.com/150x150" width="31" height="21" alt="Да">
+                  <img class="specification__feature-image" src="https://via.placeholder.com/150x150" width="31" height="21" alt="Нет">
+                </td>
+                <td class="specification__feature-cell">
+                  <span class="specification__feature-name">Розовый фильтр</span>
+                  <img class="specification__feature-image" src="https://via.placeholder.com/150x150" width="31" height="21" alt="Да">
+                  <img class="specification__feature-image" src="https://via.placeholder.com/150x150" width="31" height="21" alt="Нет">
+                </td>
+                <td class="specification__feature-cell">
+                  <span class="specification__feature-name">Розовый фильтр</span>
+                  <img class="specification__feature-image" src="https://via.placeholder.com/150x150" width="31" height="21" alt="Да">
+                  <img class="specification__feature-image" src="https://via.placeholder.com/150x150" width="31" height="21" alt="Нет">
+                </td>
+              </tr>
+              <tr class="specification__feature-item"> <!--строка-->
+                <td class="specification__feature-cell">
+                  <span class="specification__feature-name">Смайлики</span>
+                </td>
+                <td class="specification__feature-cell">
+                  <span class="specification__feature-name">Смайлики</span>
+                  <img class="specification__feature-image" src="https://via.placeholder.com/150x150" width="31" height="21" alt="Да">
+                  <img class="specification__feature-image" src="https://via.placeholder.com/150x150" width="31" height="21" alt="Нет">
+                </td>
+                <td class="specification__feature-cell">
+                  <span class="specification__feature-name">Смайлики</span>
+                  <img class="specification__feature-image" src="https://via.placeholder.com/150x150" width="31" height="21" alt="Да">
+                  <img class="specification__feature-image" src="https://via.placeholder.com/150x150" width="31" height="21" alt="Нет">
+                </td>
+                <td class="specification__feature-cell">
+                  <span class="specification__feature-name">Смайлики</span>
+                  <img class="specification__feature-image" src="https://via.placeholder.com/150x150" width="31" height="21" alt="Да">
+                  <img class="specification__feature-image" src="https://via.placeholder.com/150x150" width="31" height="21" alt="Нет">
+                </td>
+              </tr>
+              <tr class="specification__feature__item"> <!--строка-->
+                <td class="specification__feature-cell">
+                  <span class="specification__feature-name">Комментарии</span>
+                </td>
+                <td class="specification__feature-cell">
+                  <span class="specification__feature-name">Комментарии</span>
+                  <img class="specification__feature-image" src="https://via.placeholder.com/150x150" width="31" height="21" alt="Да">
+                  <img class="specification__feature-image" src="https://via.placeholder.com/150x150" width="31" height="21" alt="Нет">
+                </td>
+                <td class="specification__feature-cell">
+                  <span class="specification__feature-name">Комментарии</span>
+                  <img class="specification__feature-image" src="https://via.placeholder.com/150x150" width="31" height="21" alt="Да">
+                  <img class="specification__feature-image" src="https://via.placeholder.com/150x150" width="31" height="21" alt="Нет">
+                </td>
+                <td class="specification__feature-cell">
+                  <span class="specification__feature-name">Комментарии</span>
+                  <img class="specification__feature-image" src="https://via.placeholder.com/150x150" width="31" height="21" alt="Да">
+                  <img class="specification__feature-image" src="https://via.placeholder.com/150x150" width="31" height="21" alt="Нет">
+                </td>
+              </tr>
+            </table>
+          </header>
+        </div>
+      </section>
+
+
+      <footer class="page-footer">
+        <div class="page-footer__wrapper">
+          <div class="page-footer__contacts contacts">
+            <p class="contacts__title">Остались вопросы?<br>Свяжитесь с нами!</p>
+            <dl class="contacts__lists">
+              <dt class="contacts__item-type">Звоните:</dt>
+              <dd class="contacts__item-element><a href="tel:+78125556666">+7 (812) 555-66-66</a></dd>
+              <dt class="contacts__item-type">Пишите:</dt>
+              <dd class="contacts__item-element"><a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></dd>
+              <dt class="contacts__item-type">Приезжайте в гости:</dt>
+              <dd class="contacts__item-element">г. Санкт-Петербург, ул. Большая Конюшенная 19/8</dd>
+            </dl>
+          </div>
+
+          <img class="page-footer__map" src="https://via.placeholder.com/150x150" width="320" height="200" alt="Схема проезда">
+
+          <a class="page-footer__logo"><img src="https://via.placeholder.com/150x150" width="74" height="23" alt="Приложение PINK"></a>
+
+          <div class="page-footer__social">
+            <ul class="social">
+              <li class="social__item">
+                <a class="social__item-link social__link--twitter" href="https://twitter.com/htmlacademy"><img src="https://via.placeholder.com/150x150" width="48" height="48" alt="Мы в Twitter"></a>
+              </li>
+              <li class="social__item">
+                <a class="social__item-link social__link--facebook" href="https://www.facebook.com/htmlacademy"><img src="https://via.placeholder.com/150x150" width="48" height="48" alt="Мы в Facebook"></a>
+              </li>
+              <li class="social__item">
+                <a class="social__item-link social__link--youtube" href="https://www.youtube.com/htmlacademy"><img src="https://via.placeholder.com/150x150" width="48" height="48" alt="Мы в YouTube"></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="page-footer__copyright">
+            <div class="copyright">
+              <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">Разработано</a>
+              <a class="copyright__link"><img src="https://via.placeholder.com/150x150" width="27" height="34" alt="HTML Academy"></a>
+            </div>
+          </div>
+
+        </div>
+      </footer>
+
+    </main>
   </body>
 </html>
