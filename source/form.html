@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Пинк</title>
+  </head>
+  <body class="page__body">
+    <header class="page__header">
+      <a class="page-header__logo"><img src="https://via.placeholder.com/150x150" width="74" height="23" alt="Приложение PINK"></a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Главное меню</span></button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list">
+            <li class="nav-list__item"><a>Главная</a></li>
+            <li class="nav-list__item"><a>Фотографии</a></li>
+            <li class="nav-list__item"><a>Конкурс</a></li>
+            <li class="nav-list__item"><a>HTML Academy</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="page-main">
+      <h1 class="visually-hidden">Приложение PINK - Взгляните на жизнь иначе!</h1>
+      <p class="form__slogan">Конкурс на самое безбашенное путешествие с Пинк</p>
+
+      <form class="form" action="https://echo.htmlacademy.ru" method="post">
+        <fieldset class="fields-person">
+          <p class="fields-person__motivation-block">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!</p>
+          <input class="fields-person__item" type="text" name="surname" id="surname" placeholder="Укажите фамилию *" required> <label for="surname">Фамилия:</label>
+          <input class="fields-person__item" type="text" name="name" id="name" placeholder="Введите ваше имя *" required> <label for="name">Имя:</label>
+          <input class="fields-person__item" type="text" name="second-name" placeholder="Ну и отчество тоже" id="second-name"> <label for="second-name">Отчество:</label>
+        </fieldset>
+        <fieldset class="fields-events">
+          <p class="fields-events__motivation-block">Ваши безбашенные достижения в путешествии</p>
+          <input class="fields-events__item" name="events" type="checkbox" value="idch1" value="ev1" checked><label for="idch1">Сделал селфи с акулой</label>
+          <input class="fields-events__item" name="events" type="checkbox" value="idch2" value="ev2" checked><label for="idch2">Обгорел на пляже</label>
+          <input class="fields-events__item" name="events" type="checkbox" value="idch3" value="ev3"><label for="idch3">Видел Чака Норриса</label>
+          <input class="fields-events__item" name="events" type="checkbox" value="idch4" value="ev4"><label for="idch4">Накупил сувениров</label>
+          <input class="fields-events__item" name="events" type="checkbox" value="idch5" value="ev5" checked><label for="idch5">Удержал башню</label>
+          <input class="fields-events__item" name="events" type="checkbox" value="idch6" value="ev6"><label for="idch6">Разгромил отель</label>
+        </fieldset>
+        <fieldset class="fields-contacts">
+          <p class="fields-contacts__motivation-block"></p>
+          <input class="fields-contacts__item" type="text" name="phone" id="phone" placeholder="Номер, пожалуйста"> <label for="phone">Номер телефона</label>
+          <input class="fields-contacts__item" type="text" name="email" id="email" placeholder="Введите почту *" required> <label for="email">Адрес почты</label>
+        </fieldset>
+        <fieldset class="fields-platform">
+          <p class="fields-platform__motivation-block">С каким приложением путешествовали?</p>
+          <input name="platform" type="radio" id="pl1" value="pl1"><label for="platform">Pink для iOS</label>
+          <input name="platform" type="radio" id="pl2" value="pl2"><label for="platform">Pink на Android</label>
+          <input name="platform" type="radio" id="pl3" value="pl3"><label for="platform">Windows Phone</label>
+        </fieldset>
+        <fieldset class="fields-description">
+          <p class="fields-description__motivation-block">Опишите свои эмоции</p>
+          <textarea name="description" id="description" placeholder="Можно прям в красках, не стесняясь в выражениях" maxlength="200"></textarea>
+        </fieldset>
+        <input class="form__button" type="submit" value="Отправить форму" />
+        <p class="form__comment">* — обязательные поля</p>
+      </form>
+
+
+
+
+      <footer class="page-footer">
+
+          <a class="page-footer__logo"><img src="https://via.placeholder.com/150x150" width="74" height="23" alt="Приложение PINK"></a>
+
+          <div class="page-footer__social">
+            <ul class="social">
+              <li class="social__item">
+                <a class="social__item-link social__link--twitter" href="https://twitter.com/htmlacademy"><img src="https://via.placeholder.com/150x150" width="48" height="48" alt="Мы в Twitter"></a>
+              </li>
+              <li class="social__item">
+                <a class="social__item-link social__link--facebook" href="https://www.facebook.com/htmlacademy"><img src="https://via.placeholder.com/150x150" width="48" height="48" alt="Мы в Facebook"></a>
+              </li>
+              <li class="social__item">
+                <a class="social__item-link social__link--youtube" href="https://www.youtube.com/htmlacademy"><img src="https://via.placeholder.com/150x150" width="48" height="48" alt="Мы в YouTube"></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="page-footer__copyright">
+            <div class="copyright">
+              <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">Разработано</a>
+              <a class="copyright__link"><img src="https://via.placeholder.com/150x150" width="27" height="34" alt="HTML Academy"></a>
+            </div>
+          </div>
+
+        </div>
+      </footer>
+
+    </main>
+  </body>
+</html>
